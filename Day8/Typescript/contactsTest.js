@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var person_1 = require("./person");
+var contacts_1 = require("./contacts");
+var personas = new contacts_1.Contacts();
+var persona = new person_1.Person("Pablo", 32, "Calle Falsa 123");
+var persona2 = new person_1.Person("Maria", 30, "Calle Cuesta 25");
+personas.people.push(persona);
+personas.people.push(persona2);
+personas.printCalendar();
