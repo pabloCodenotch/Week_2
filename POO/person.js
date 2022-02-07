@@ -6,8 +6,8 @@ class Person
         this.peso = peso;
         this.pelo
         this.nombre = nombre;
-        this.nacionalidad = "Apátrida";
-        this.edad = edad;
+        this.nacionalidad = "Apátrida";   
+        this.yearOfBirth = 1990
         this.colorPelo
         this.estadoCivil = "Solterx"
         if(this.estadoCivil == "Solterx")
@@ -24,11 +24,11 @@ class Person
         return resultado;
     }
 
-    yearOfBirth(x)
+    calcularEdad(x)
     {
-        let anyoActual = 2022;
-        let año = anyoActual - x;
-        return año;
+       
+        let edad = x - this.yearOfBirth;
+        return edad;
     }
 
 
