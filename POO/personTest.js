@@ -18,7 +18,7 @@ console.log(cliente.IMC())
 
 console.log("PRUEBA DE AÑO DE NACIMIENTO")
 
-console.log(cliente.yearOfBirth(1990))
+console.log(cliente.calcularEdad(2022))
 
 console.log("PRUEBA DE BUCLE FOR...IN")
 
